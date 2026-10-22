@@ -42,6 +42,3 @@ A multi-user FastAPI backend with MongoDB, Redis, JWT-based RBAC, and WebSockets
 
 System design · DSA · 1,000+ problems solved · **Top 14% on LeetCode** · [LeetCode profile](https://leetcode.com/u/eat_n_code/)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=eatncodee&style=flat&label=PROFILE+VIEWS" alt="Profile views">
-</p>
