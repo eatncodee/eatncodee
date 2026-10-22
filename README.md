@@ -8,7 +8,7 @@
 
 I build backend systems and AI features that make it into production.
 
-I enjoy connecting services into complete, reliable product workflows, tracing bottlenecks, and fixing the underlying problem. I bring energy to unfamiliar problems, learn quickly, and like seeing the work through to production.
+I like making the pieces work together—backend services, data, and AI—so a feature works as one product.
 
 ## Experience
 
