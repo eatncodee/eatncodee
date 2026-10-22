@@ -1,50 +1,47 @@
 <h1 align="center">Rudraksh Gulati</h1>
-<p align="center">Backend Engineering · Applied AI · Real-Time Systems</p>
+<p align="center">Software Engineer · Backend Systems · Real-Time Applications · AI</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/rudraksh05/">LinkedIn</a> ·
   <a href="mailto:rudrakshgulati5@gmail.com">Email</a> ·
   <a href="https://leetcode.com/u/eat_n_code/">LeetCode</a>
 </p>
 
-I’m a final-year Information Technology student graduating in 2027. I build backend systems and AI features for real product workflows. Across three internships, I’ve shipped an education app end to end, built real-time voice experiences, and improved service cost, latency, and reliability. My work spans backend APIs, async pipelines, LLM observability, retrieval, and production debugging.
+I build backend systems and AI features that make it into production.
 
-I’m open to early-career roles in backend engineering, applied AI, and infrastructure, where I can take ownership of product-critical work and help teams ship reliable systems. My current focus is system design and DSA.
+I enjoy connecting services into complete, reliable product workflows, tracing bottlenecks, and fixing the underlying problem. I bring energy to unfamiliar problems, learn quickly, and like seeing the work through to production.
 
 ## Experience
 
-**SDE Intern · GyanX** · Jul 2026–Present
+**SDE Intern · GyanX**
 
-- Shipped a parent-facing app end to end, reducing Firestore reads by 85% through server-side aggregation.
-- Built a real-time voice doubt-solving feature with under 3.5 seconds of end-to-end latency.
-- Added request-level LLM telemetry and reduced input tokens by 56.1% and total token usage by 9.9% through prompt optimization.
+Shipped a parent-facing app end-to-end, cutting Firestore reads by **85%** by replacing 6–7 per-metric loops with a single server-side aggregation call. Built a real-time voice doubt-solving feature with **under 3.5s end-to-end latency**; added request-level LLM telemetry and optimized prompts, reducing input tokens by **56.1%** and total token usage by **9.9%**.
 
-**Backend SDE Intern · WittingAI** · Mar–Apr 2026
+**Backend SDE Intern · WittingAI**
 
-- Shipped a modular speech-to-text, LLM, and text-to-speech pipeline for Vocalis, reducing inference cost by about 50%.
-- Resolved five production issues by tracing CloudWatch logs and fixing session-breaking validation errors.
+Shipped Vocalis’s modular **STT → LLM → TTS** pipeline, cutting inference costs by **~50%**; resolved five production issues by tracing AWS CloudWatch logs and fixing session-breaking validation errors.
 
-**Research Intern · SHODH / Anveshan 2.0** · Jun–Jul 2026
+**Research Intern · SHODH / Anveshan 2.0**
 
-- Optimized a voice RAG pipeline, reducing query-embedding latency by about 97% and removing one of two LLM calls per query.
+Optimized voice RAG with local embeddings, cutting query-embedding latency from **500–700ms to 15–20ms (~97%)** and reducing LLM calls per query from two to one.
 
-## Selected projects
+## Selected Projects
 
-**[Real-Time Full-Duplex Voice RAG Assistant](https://github.com/eatncodee/Real-Time-Full-Duplex-Voice-RAG-Assistant)**
+[**Real-Time Full-Duplex Voice RAG Assistant**](https://github.com/eatncodee/Real-Time-Full-Duplex-Voice-RAG-Assistant)
 
-A document-grounded voice assistant that streams speech and answers concurrently. Built with FastAPI, WebSockets, asyncio, ChromaDB, and STT/TTS services, with barge-in support so users can interrupt an active response.
+A full-duplex voice assistant that listens while speaking, handles interruptions, and answers from uploaded documents—with **~4s time-to-first-audio** and **~2s lower response latency** through intent routing.
 
-**[Personal Companion](https://github.com/eatncodee/Personal_Companion)**
+[**Personal Companion — Persistent Memory**](https://github.com/eatncodee/Personal_Companion)
 
-A local AI companion prototype with persistent structured memory, selective retrieval, state updates, and contradiction handling. Separates durable user memory from the companion persona.
+A memory system for structured facts, exact-reference resolution, semantic retrieval, and contradiction handling, with the companion persona kept separate from user memory. Manually evaluated across **50+ conversation turns**.
 
-**[Real-Time Task Monitor with RBAC](https://github.com/eatncodee/Real-Time-Task-Monitor-with-RBAC)**
+[**Real-Time Task Management Backend**](https://github.com/eatncodee/Real-Time-Task-Monitor-with-RBAC)
 
-An async task service with JWT authentication, user/admin access control, Redis-backed login rate limiting, and WebSocket updates instead of client polling.
+A multi-user FastAPI backend with MongoDB, Redis, JWT-based RBAC, and WebSockets that push live task updates instead of relying on polling.
 
-## Technologies
+## Current Focus
 
-Python · C++ · FastAPI · asyncio · WebSockets · MongoDB · PostgreSQL · Redis · Firestore · ChromaDB · RAG · LLM integrations · STT/TTS · Docker · AWS CloudWatch
+System design · DSA · 1,000+ problems solved · **Top 14% on LeetCode** · [LeetCode profile](https://leetcode.com/u/eat_n_code/)
 
-## Problem solving
-
-1000+ DSA problems solved · Peak LeetCode contest rating: 1735 · [LeetCode profile](https://leetcode.com/u/eat_n_code/)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=eatncodee&style=flat&label=PROFILE+VIEWS" alt="Profile views">
+</p>
